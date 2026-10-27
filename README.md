@@ -39,13 +39,6 @@ python src/analisis_creep.py
 
 ![Prueba 2](resultados/prueba2_creep.png)
 
-## Recomendaciones para grabar los ensayos
-
-- Teléfono fijo y enfoque bloqueado (AE/AF).
-- Regla pegada al filamento y a la misma distancia de la cámara.
-- Grabar desde antes de colgar la masa y soltarla de una vez.
-- Un tramo nuevo de filamento por ensayo.
-- Exportar en HandBrake a 5 fps, con *Resolution Limit: None* y *Anamorphic: None*.
 
 ## Pendiente
 
