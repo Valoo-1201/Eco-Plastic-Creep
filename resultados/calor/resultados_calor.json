@@ -1,0 +1,79 @@
+{
+  "area_mm2": {
+    "sin_tratar_masa": 0.39355567445455086,
+    "calentado_masa": 0.4840103716508211,
+    "sin_tratar_vernier": 0.44178646691106466,
+    "calentado_vernier": 0.3019070540099791,
+    "rho_supuesta": 1.335
+  },
+  "diametro_equivalente_mm": {
+    "sin_tratar": 0.7078775655227761,
+    "calentado": 0.7850230221132297
+  },
+  "esfuerzo_MPa": {
+    "sin_tratar_4kg": 99.7063504531722,
+    "sin_tratar_4_5kg": 112.16964425981874,
+    "calentado_1kg": 20.268160714285713,
+    "calentado_4_5kg": 91.20672321428572,
+    "calentado_4_5kg_zona_0_62mm": 146.2204987053428,
+    "prueba2_1kg": 24.92658761329305
+  },
+  "relacion_estiramiento_por_largo": 1.0263157894736843,
+  "calentado": {
+    "L_1kg_px": 120.85277499999997,
+    "def_inmediata_1a4_5kg_pct": 2.2549957996413483,
+    "def_10s_pct": 2.286190780476502,
+    "def_final_pct": 6.054122464295954,
+    "creep_10s_a_final_pct": 3.7679316838194525,
+    "duracion_s": 974.8,
+    "se_rompio": false,
+    "burgers": {
+      "eps0": 0.008168465540179476,
+      "eps2": 0.03495040722875414,
+      "tau_s": 19.25540449630456,
+      "rate_1_s": 2.1779793979980124e-05,
+      "E1_GPa": 8.684441667907354,
+      "E2_GPa": 2.0296920157667846,
+      "eta2_Pa_s": 39082540766.50921,
+      "eta1_Pa_s": 3257081429016.563,
+      "R2": 0.9789907619832698,
+      "RMSE_pct": 0.14217561602932832
+    },
+    "validacion_5min_burgers": {
+      "pred_final_pct": 7.831613024955759,
+      "medido_final_pct": 6.0353806522027345,
+      "err_max_pct": 1.7962323727530254,
+      "R2_validacion": -7.913366955567966
+    },
+    "prony": {
+      "eps0": 3.6987192343202484e-16,
+      "a1": 0.038275409039472824,
+      "tau1_s": 12.583313086731557,
+      "a2": 0.013244862724022791,
+      "tau2_s": 224.11895234294875,
+      "rate_1_s": 1.0222823273731266e-05,
+      "E0_GPa": 191792234029996.88,
+      "E1_GPa": 1.8533717674144823,
+      "E2_GPa": 5.355930369239358,
+      "eta_flujo_Pa_s": 6939233967027.963,
+      "R2": 0.9913822318566777,
+      "RMSE_pct": 0.09105784558479812
+    },
+    "validacion_5min_prony": {
+      "pred_final_pct": 6.1119447532349085,
+      "medido_final_pct": 6.0353806522027345,
+      "err_max_pct": 0.07656410103217479,
+      "R2_validacion": 0.9825931667879148
+    }
+  },
+  "sin_tratar": {
+    "creep_10s_a_ruptura_pct": 13.291476147800557,
+    "creep_10s_a_16min_pct": 13.012661520723043,
+    "t_ruptura_s": 1217.3
+  },
+  "prueba4": {
+    "carga_ruptura_kg": 4.5,
+    "t_ruptura_video_s": 99.0,
+    "lugar": "nudo superior"
+  }
+}
