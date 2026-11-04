@@ -1,0 +1,32 @@
+{
+ "antes_1": {
+  "directo": 0.628,
+  "coincidencia": 0.697,
+  "promedio": 0.662
+ },
+ "antes_2": {
+  "directo": 0.687,
+  "coincidencia": 0.758,
+  "promedio": 0.723
+ },
+ "antes_3": {
+  "directo": 0.45,
+  "coincidencia": 0.533,
+  "promedio": 0.492
+ },
+ "despues_1": {
+  "directo": 0.505,
+  "coincidencia": 0.544,
+  "promedio": 0.524
+ },
+ "despues_2": {
+  "directo": 0.442,
+  "coincidencia": 0.556,
+  "promedio": 0.499
+ },
+ "despues_3": {
+  "directo": 0.348,
+  "coincidencia": 0.508,
+  "promedio": 0.428
+ }
+}
