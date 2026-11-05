@@ -61,3 +61,13 @@ Los esfuerzos usan el área calculada con la masa por unidad de largo (densidad 
 
 - Cálculo de cristalinidad por densidad (Arquímedes, modelo de dos fases).
 - Ensayos con estiramientos mayores (λ = 2 y 3) a la misma carga y validación cruzada entre condiciones.
+
+## Resultados finales para el reporte y el póster
+
+`resultados/finales/` contiene las 6 figuras finales (300 dpi), las tablas resumen y todos los números en `resultados_completos.json`. Se regeneran con:
+
+```
+VIDEO_CALOR="ruta/al/video_prueba3_calor.mp4" python src/figuras_finales.py
+```
+
+Sin `VIDEO_CALOR` se generan todas las figuras menos la 1 (foto del montaje). Los textos base del reporte están en `docs/textos_base_reporte_y_poster.md`.
