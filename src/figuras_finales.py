@@ -136,7 +136,7 @@ with open(f'{DAT}/prueba3_calentado_4_5kg_deformacion_por_segundo.csv','w',newli
 cap=cv2.VideoCapture(VIDEO); cap.set(cv2.CAP_PROP_POS_FRAMES,1500); ok,fr=cap.read()
 if not ok:
     json.dump(R,open(f'{TAB}/resultados_completos.json','w'),indent=2,default=float,ensure_ascii=False); raise SystemExit('Figura 1 omitida: define VIDEO_CALOR con la ruta del video')
- fr=cv2.resize(fr,(608,1080),interpolation=cv2.INTER_AREA)
+fr=cv2.resize(fr,(608,1080),interpolation=cv2.INTER_AREA)
 j=np.argmin(np.abs(B_['t']-300)); sx=608/1080
 xu,yu,xl,yl=B_['xu'][j]*sx,B_['yu'][j],B_['xl'][j]*sx,B_['yl'][j]
 fig,ax=plt.subplots(figsize=(4.2,7.4)); ax.imshow(cv2.cvtColor(fr,cv2.COLOR_BGR2RGB)); ax.axis('off'); ax.grid(False)
