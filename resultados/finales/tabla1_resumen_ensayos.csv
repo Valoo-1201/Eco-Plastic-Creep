@@ -1,0 +1,5 @@
+﻿Ensayo,Filamento,Carga (kg),Esfuerzo (MPa),Duración (min),Deformación principal,¿Cedió?,¿Se rompió?,Notas
+Prueba 2,Sin tratar,1,25,27,0.45 % a 8 s; 0.91 % a 27 min,No,No,Referencia de creep en régimen bajo
+Prueba 3,Sin tratar (mismo tramo de la prueba 2),4 → 4.5,100 → 112,20.3,1.1 % a 15 s; 11.4 % a 2 min; 14.1 % al romperse,Sí (velocidad máx. 19 %/min a los 52 s),"Sí, en el nudo",Deformación medida desde el estado con 4 kg
+Prueba 3 con calor,Calentado y estirado en agua a 90 °C,1 → 4.5,20 → 91,16,2.3 % al cargar; 6.1 % a 16 min (creep de 3.8 %),No,No,Deformación medida desde el estado con 1 kg
+Prueba 4 extra,Calentado y estirado en agua a 90 °C,hasta 4.5 (progresiva),≈91,≈1.7,— (sin marcas),—,"Sí, en el nudo (~10 s después de 4.5 kg)",Prueba de carga hasta la ruptura

@@ -1,0 +1,18 @@
+﻿Ensayo,Modelo,Parámetro,Valor,Unidad
+Prueba 2,Burgers,E1 (resorte instantáneo),5.9,GPa
+Prueba 2,Burgers,E2 (parte retardada),8.7,GPa
+Prueba 2,Burgers,τ = η2/E2,88,s
+Prueba 2,Burgers,η1 (flujo),2.1e+13,Pa·s
+Prueba 2,Burgers,R²,0.980,
+Prueba 3 con calor,Prony 2 términos + flujo,Amplitud término rápido,3.83,%
+Prueba 3 con calor,Prony 2 términos + flujo,τ1,13,s
+Prueba 3 con calor,Prony 2 términos + flujo,Amplitud término lento,1.32,%
+Prueba 3 con calor,Prony 2 términos + flujo,τ2,224,s
+Prueba 3 con calor,Prony 2 términos + flujo,Flujo,0.061,%/min
+Prueba 3 con calor,Prony 2 términos + flujo,R² (ajuste completo),0.991,
+Prueba 3 con calor,Burgers,R² (ajuste completo),0.979,
+Prueba 3 con calor,"Validación (calibra 0–5 min, predice 5–16 min)",Prony: predicho a 16 min,6.11,%
+Prueba 3 con calor,Validación,Burgers: predicho a 16 min,7.83,%
+Prueba 3 con calor,Validación,Medido a 16 min,6.04,%
+Prueba 3 con calor,Validación,Prony: R² de validación,0.98,
+Prueba 3 con calor,Validación,Prony: error máximo,0.08,puntos de %

@@ -1,0 +1,10 @@
+﻿Dato,Sin tratar,Calentado a 90 °C,Fuente
+Masa / largo,0.0993 g / 18.9 cm,0.1260 g / 19.5 cm,Balanza analítica y regla
+Masa por cm (mg/cm),5.25,6.46,Calculado
+Área efectiva (mm²),0.394,0.484,"Masa por cm ÷ 1.335 g/cm³ (PET amorfo, supuesto)"
+Diámetro equivalente (mm),0.71,0.79,Del área efectiva
+Diámetro con vernier (mm),0.75,0.80 antes; 0.62 después (zona local),Equipo
+Largo antes → después de calentar (cm),—,19 → 19.5 (λ ≈ 1.03),Equipo
+Temperatura del agua (°C),—,≈ 90,Foto del termómetro
+Precisión de la medición (1 desv. est.),±0.007 % de deformación (±8 µm),,"Prueba 2, ventana de 100 s"
+Velocidad de video,5 cuadros/s,5 cuadros/s,HandBrake

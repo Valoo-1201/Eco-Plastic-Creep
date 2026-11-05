@@ -1,0 +1,96 @@
+{
+  "prueba2": {
+    "carga_kg": 1,
+    "esfuerzo_MPa": 24.92658761329305,
+    "L0_px": 332.0152583333333,
+    "L0_mm": 116.25184115312791,
+    "duracion_min": 26.956666666666663,
+    "def_8s_pct": 0.44747085239538603,
+    "def_final_pct": 0.9097598953220907,
+    "burgers": {
+      "E1_GPa": 5.911904795965431,
+      "E2_GPa": 8.722024155968912,
+      "tau_s": 87.82651921085706,
+      "eta2_Pa_s": 766025022091.763,
+      "eta1_Pa_s": 20873117655046.92,
+      "R2": 0.9804315628839431
+    }
+  },
+  "precision": {
+    "ruido_px_desv": 0.02374923857234501,
+    "ruido_def_pct": 0.007153056366012399,
+    "ventana_s": "1450-1550 (prueba 2)",
+    "mm_por_px": 0.350140056022409,
+    "ruido_um": 8.315559724210438
+  },
+  "prueba3_sin_tratar": {
+    "carga_kg": "4 -> 4.5",
+    "esfuerzo_MPa": [
+      99.7063504531722,
+      112.16964425981874
+    ],
+    "def_15s_pct": 1.1368553550818152,
+    "def_2min_pct": 11.416845474007395,
+    "def_16min_pct": 13.813018947059891,
+    "def_ruptura_pct": 14.08772876989891,
+    "vel_max_pct_min": 18.94230329262907,
+    "t_vel_max_s": 52.5,
+    "t_ruptura_min": 20.288333333333334,
+    "lugar_ruptura": "nudo superior"
+  },
+  "prueba3_calentado": {
+    "carga_kg": "1 -> 4.5",
+    "esfuerzo_MPa": [
+      20.268160714285713,
+      91.20672321428572
+    ],
+    "temperatura_agua_C": 90,
+    "largo_cm": "19 -> 19.5",
+    "lambda_largo": 1.0263157894736843,
+    "def_inmediata_pct": 2.286190780476502,
+    "def_final_pct": 6.054122464295954,
+    "creep_desde_10s_16min_pct": 3.7679316838194525,
+    "duracion_min": 16.246666666666666,
+    "cedio": false,
+    "se_rompio": false,
+    "prony": {
+      "a1_pct": 3.8275409039472823,
+      "tau1_s": 12.583313086731557,
+      "a2_pct": 1.324486272402279,
+      "tau2_s": 224.11895234294875,
+      "flujo_pct_por_min": 0.061336939642387595,
+      "R2": 0.9913822318566777
+    },
+    "burgers": {
+      "R2": 0.9789907619759974
+    },
+    "validacion": {
+      "calibracion": "primeros 5 min",
+      "prediccion": "5 a 16 min",
+      "prony_pred_final_pct": 6.1119447532349085,
+      "burgers_pred_final_pct": 7.831613034279326,
+      "medido_final_pct": 6.0353806522027345,
+      "prony_R2_validacion": 0.9825931667879148,
+      "burgers_R2_validacion": -7.913367060800823,
+      "prony_error_max_puntos_pct": 0.07656410103217479
+    }
+  },
+  "sin_tratar_creep_desde_10s_16min_pct": 13.012661520723043,
+  "prueba4_calentado": {
+    "carga": "progresiva hasta 4.5 kg",
+    "ruptura": "≈10 s después de completar 4.5 kg, en el nudo superior",
+    "esfuerzo_MPa": 91.20672321428572
+  },
+  "areas": {
+    "metodo": "A = (masa/largo)/densidad, densidad supuesta 1.335 g/cm3",
+    "sin_tratar_mm2": 0.39355567445455086,
+    "calentado_mm2": 0.4840103716508211,
+    "d_equiv_sin_tratar_mm": 0.7078775655227761,
+    "d_equiv_calentado_mm": 0.7850230221132297,
+    "vernier_reportado_mm": {
+      "sin_tratar": 0.75,
+      "calentado_antes": 0.8,
+      "calentado_despues": 0.62
+    }
+  }
+}
