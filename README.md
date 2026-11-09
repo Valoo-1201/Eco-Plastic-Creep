@@ -35,20 +35,22 @@ python src/analisis_calor.py     # filamento calentado a 90 °C vs sin tratar (4
 
 | Prueba | Carga | Esfuerzo | Deformación final | Notas |
 |---|---|---|---|---|
-| 2 | 1 kg | 22 MPa | 0.91 % a los 27 min | Burgers: R² = 0.966 |
-| 3 | 4 → 4.5 kg | ≈ 100 → 112 MPa | 14.1 % | Cedencia retardada; ruptura en el nudo a los 20 min |
+| 2 | 1 kg | ≈ 25 MPa | 0.91 % a los 27 min | Burgers: R² = 0.98 |
+| 3 | 4 → 4.5 kg | ≈ 100 → 112 MPa | 14.1 % (desde el estado con 4 kg) | Cedencia retardada; ruptura en el nudo a los 20 min |
 | 3 con calor | 1 → 4.5 kg | ≈ 20 → 91 MPa | 6.1 % (creep de 3.8 %) a los 16 min | Calentado y estirado a 90 °C; sin cedencia ni ruptura |
 | 4 extra | hasta 4.5 kg | ≈ 91 MPa | — | Calentado; ruptura en el nudo a los ~10 s de completar 4.5 kg |
+
+Los números de esta tabla son los finales y salen de `src/figuras_finales.py` (ver `resultados/finales/`). `src/analisis_creep.py` es un análisis anterior que usa el área del vernier y otro ajuste, por eso para la prueba 2 da 22 MPa y R² = 0.966.
 
 Los esfuerzos usan el área calculada con la masa por unidad de largo (densidad supuesta de 1.335 g/cm³), porque es más confiable que el vernier en un filamento que no es perfectamente circular.
 
 **Modelo:** en el filamento calentado, una serie de Prony de 2 términos con flujo, ajustada solo con los primeros 5 min, predice los minutos 5 a 16 con R² = 0.98 (6.11 % predicho contra 6.04 % medido). El modelo de Burgers sobreestima esa misma predicción.
 
-![Comparación](resultados/calor/comparacion_calor_vs_sin_tratar.png)
+![Comparación](resultados/finales/fig5_comparacion_calentado_vs_sin_tratar.png)
 
-![Modelo](resultados/calor/calentado_modelo.png)
+![Modelo](resultados/finales/fig6_validacion_modelo.png)
 
-![Prueba 2](resultados/prueba2_creep.png)
+![Prueba 2](resultados/finales/fig3_creep_sin_tratar_1kg.png)
 
 ## Limitaciones
 
